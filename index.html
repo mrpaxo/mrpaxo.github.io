@@ -310,10 +310,10 @@
                         <div class="card bg-white">
                             <h3 class="text-center mt-5">Consultorio</h3>
                             <p class="text-center mt-3"> <b>Tecnologías usadas:</b> Python,Django, Postgresql y Bootstrap</p>
-                            <div class="card-body bg-light">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="proyecto_consultorio.mp4" allowfullscreen></iframe>
-                                  </div>
+                            <div class="card-body bg-light video" data-video = "proyecto_consultorio.mp4">
+                                <div align="center">
+                                    <i style="font-size: 18em; "class="fa fa-play-circle"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -321,10 +321,10 @@
                         <div class="card bg-white">
                             <h3 class="text-center mt-5">Tracking</h3>
                             <p class="text-center mt-3"> <b>Tecnologías usadas:</b> Python,Django, Angular , Postgres,Bootstrap, Celery</p>
-                            <div class="card-body bg-light">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="proyecto_tracking.mp4" allowfullscreen></iframe>
-                                  </div>
+                            <div class="card-body bg-light video" data-video = "proyecto_tracking.mp4">
+                                <div align="center">
+                                    <i style="font-size: 18em; "class="fa fa-play-circle"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -344,3 +344,14 @@
         </div>
     </body>
     </html>
+    <script>
+        $(document).ready(function () {
+            var MuestraVideo = function(){
+            var video = $(this);
+            video.empty();//borramos imagen y apendamos video
+            video.append('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src='+video.attr('data-video') +'  allowfullscreen></iframe></div>')
+        };
+            $(".video").click(MuestraVideo);
+
+        });
+    </script>
