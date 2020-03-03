@@ -1,0 +1,66 @@
+body {
+    background: #ccc;
+}
+#Header a:hover{
+    color: #FFF;
+}
+#bg-img{
+    background: url('../img/fondo5.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 600px;
+
+}
+#About
+{
+    margin-top: -200px;
+}
+#About .fa
+{
+    color: #ccc;
+}
+#About span
+{
+    padding: 10px 20px 10px 20px;
+}
+#About hr{
+    border-width: 2px;
+    margin-top: 06px;
+}
+
+#Skills span
+{
+    padding: 10px 20px 10px 20px;
+}
+#Skills hr{
+    border-width: 2px;
+    margin-top: 06px;
+}
+#Experience span
+{
+    padding: 10px 20px 10px 20px;
+}
+#Experience hr{
+    border-width: 2px;
+    margin-top: 06px;
+}
+#Experience .card{
+    
+    border-top: 03px solid #17a2b8;
+}
+#Contact span
+{
+    padding: 10px 20px 10px 20px;
+}
+#Contact hr{
+    border-width: 2px;
+    margin-top: 06px;
+}
+#Projects span
+{
+    padding: 10px 20px 10px 20px;
+}
+#Projects hr{
+    border-width: 2px;
+    margin-top: 06px;
+}

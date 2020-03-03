@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang = "en">
+   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <title>Mi Portafolio :D</title>
+    </head>
+    <body data-spy ="scroll" data-target=".navbar">
+        <!--nav-bar-->
+        <div id = "Header">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <div class = "container">
+                    <button class="navbar-toggler" data-toggle= "collapse" data-target ="#Navbar">
+                        <span class = "navbar-toggler-icon"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><h3>Portafolio</h3></a>
+                    <div class="collapse navbar-collapse" id = "Navbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#About" class="nav-link">Acerca de mi</a></li>
+                            <li class="nav-item"><a href="#Skills" class="nav-link">Habilidades</a></li>
+                            <li class="nav-item"><a href="#Experience" class="nav-link">Experiencia</a></li>
+                            <li class="nav-item"><a href="#Projects" class="nav-link">Proyectos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--fondo-->
+        <div id = "bg-img"></div>
+
+        <!-- Acerca de mi -->
+        <div id="About">
+            <div class= "container">
+                <div class = "row">
+                    <div class="col">
+                        <div class="AboutData">
+                            <div class="card bg-white">
+                                <div class="card-title my-5">
+                                    <div class="media">
+                                        <img src ="img/yo.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
+                                        <div class="media-body">
+                                            <h3 class="display-4 ml-5">Francisco Gomez</h3>
+                                            <p class="text-muted ml-5"> Web Developer</p>
+                                            <div class="container">
+                                                <table class="table table-responsive ml-4">
+                                                    <tr>
+                                                        <td class="text-muted">Edad</td>
+                                                        <td>:</td>
+                                                        <td>27 años </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-muted">Email</td>
+                                                        <td>:</td>
+                                                        <td>mrpaxo297@gmail.com</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-muted">WebSite</td>
+                                                        <td>:</td>
+                                                        <td> <a href="https://mrpaxo.github.io/">https://mrpaxo.github.io</a></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "card-footer bg-info">
+                                    <a href="#"><i class="fa fa-facebook fa-2px mx-3"></i></a>
+                                    <a target="_blank" href="https://github.com/mrpaxo/"><i class="fa fa-github fa-2px mx-3"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/francisco-gomez-hernandez-b19180131/"><i class="fa fa-linkedin fa-2px mx-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <span class="bg-info text-white">Acerca de mi </span><hr class="bg-info">
+                        <p class = "lead text-justify">
+                            Soy programador desde el 2014 , me desempeñó en tecnologias como python , django , javascript , angular y motores de base de datos como postgresql y mysql, me defino  como un backend developer, 
+                            he trabajado con metodologias agiles como scrum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = 'Skills'class='mt-5'>
+            <div class="container">
+                <span class="bg-info text-white">Habilidades </span><hr class="bg-info">
+                <div class="row">
+                    <div class="col">
+                        <div class="card bg-white">
+                            <h3 class="ml-3 my-3">HTML5</h3>
+                            <div class="progress mx-3">
+                            <div class="progress-bar" style="width: 95%">95%
+                            </div>
+                            </div>
+                            <h3 class="ml-3 my-3">JavaScript</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width: 70%">70%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">Angular</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width: 80%">80%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">Python</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width: 80%">80%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">Django</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width: 90%">90%</div>
+                            </div>
+                            <h3 class="ml-3 my-3">SQL</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar" style="width: 70%">70%</div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experiencia-->
+        <div id="Experience">
+            <div class="container mt-5">
+                <span class="bg-info text-white">Experiencia</span><hr class="bg-info">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card bg-white">
+                            <h3 class="text-center mt-5">ZINK.TECH</h3>
+                            <h7 class="text-center">2018-2019</h7>
+                            <p class="lead text-justify p-3"> En zink me desempeñe como programador web , dando mantenimiento en el primer año a las soluciones informáticas de la empresa , en el segundo año empecé el desarrollo de la versión de uno de los productos de la empresa.En dicha empresa aprendí el framework Angular. En este empleo trabajaba a distancia con un equipo de madrid , España.
+                            </p>
+                            <div class="card-content mx-3">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                      <tr>
+                                        <th scope="col">Proyecto</th>
+                                        <th scope="col">Duracion</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Proyecto: Expediatur V.2</th>
+                                            <td>1 año </td>
+                                        </tr>    
+                                        <tr>
+                                            <th>Mantenimiento : Expediatur V.1</th>
+                                            <td>1 año </td>
+                                        </tr>     
+                                        <tr>
+                                            <th>Mantenimiento: Gestor de Documentos (ZMS2) </th>
+                                            <td>1 año </td>
+                                        </tr>     
+                                        <tr>
+                                            <th>Mantenimiento:  Echidna para Expediatur</th>
+                                            <td>1 año </td>
+                                        </tr>                                      
+                                    </tbody>
+                                  </table>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card bg-white">
+
+                            <h3 class="text-center mt-5">DGPYRS</h3>
+                            <h7 class="text-center">2017-2018</h7>
+                            <p class="lead text-justify p-3"> Me desempeñe en el departamento de recursos humanos de la Dirección General de Prevención y Reinserción Social, he realizado un sistema denominado sistema dgpyrs que sirve de apoyo a mis compañeros del departamento , este sistema contiene módulos que detallo a continuación.
+                            </p>
+                            <div class="card-content mx-3">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                      <tr>
+                                        <th scope="col">Proyecto</th>
+                                        <th scope="col">Duracion</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Proyecto: Sistema DGPRYS</th>
+                                            <td>7 meses</td>
+                                        </tr>
+                                        <tr>
+                                            <th>-modulo empleados</th>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>-modulo reloj checador</th>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>-modulo control de entradas y salidas
+                                            </th>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>-módulo creación de contratos y asignaciones
+                                            </th>
+                                            <td></td>
+                                        </tr>
+                                     
+                                    </tbody>
+                                  </table>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6  mt-5">
+                        <div class="card bg-white">
+                            <img src ="img/cmaig.jpeg" width="200" height="80" class="img-fluid m-auto py-3">
+                            <h3 class="text-center">CMAIG</h3>
+                            <h7 class="text-center">2014-2017</h7>
+                            <p class="lead text-justify p-3"> En la CMAIG , me desempeñe como desarrollador web , de dicha institucion de gobierno aprendi python , django y postgresql </p>
+                            <div class="card-content mx-3">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                      <tr>
+                                        <th scope="col">Proyecto</th>
+                                        <th scope="col">Duracion</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Proyecto: Sistema de Inscripción SEP</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Mantenimiento : Padrón de choferes del estado de Tabasco</th>
+                                            <td>4 meses   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Sistema de Comidas de la Secretaría de Administración  </th>
+                                            <td>3 meses   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Mantenimiento: Bienes Inmuebles</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Proyecto: Sistema de Trámites versión 2</th>
+                                            <td>4 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Mantenimiento: Sistema de Trámites versión 1</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Proyecto: Insumos del Estado de Tabasco versión 2</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Mantenimiento:Registro Civil</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Mantenimiento: Insumos del Estado de Tabasco</th>
+                                            <td>6 meses   </td>
+                                        </tr>
+                                        <tr>
+                                            <th> Mantenimiento: Junta Estatal de Caminos</th>
+                                            <td>1 mes  </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Encuesta de satisfacción</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th> Sistema de Almacén de Secretaría de Administración  </th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Sistema de Examen Informático</th>
+                                            <td>2 meses   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>(Mantenimiento)Sistema de Control de Suicidios de la Secretaría de Salud</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                        <tr>
+                                            <th>(Mantenimiento)Padrón Único de ciudadano</th>
+                                            <td>1 mes   </td>
+                                        </tr>
+                                     
+                                    </tbody>
+                                  </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--Proyectos-->
+        <div id = "Projects">
+            <div class="container mt-5">
+                <span class="bg-info text-white">Proyectos Personales</span><hr class="bg-info">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card bg-white">
+                            <h3 class="text-center mt-5">Consultorio</h3>
+                            <p class="text-center mt-3"> <b>Tecnologias usadas:</b> python,django, postgres y bootstrap</p>
+                            <div class="card-body bg-light">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="proyecto_consultorio.mp4" allowfullscreen></iframe>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card bg-white">
+                            <h3 class="text-center mt-5">Tracking</h3>
+                            <p class="text-center mt-3"> <b>Tecnologias usadas:</b> python,django, angular , postgres,bootstrap, celery</p>
+                            <div class="card-body bg-light">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="proyecto_tracking.mp4" allowfullscreen></iframe>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="container-fluid bg-dark mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <p class="text-white text-center pt-3">Web Designed By: Franciso Gomez Hernandez  2019-2020</p>
+                    </div>
+ 
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
